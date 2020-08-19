@@ -1,0 +1,44 @@
+	div p:nth-child(odd){
+		float:left;
+		font-size:20px;
+		font-weight: bold;
+		font-style: italic;
+		padding:5px;
+	}
+	div p:nth-child(even){
+		float:right;
+		font-size:20px;
+		font-weight: bold;
+		font-style: italic;
+	}
+	.thumbnail{
+		margin:3%;
+	}
+	.m{
+	font-size:30px;
+	font-weight: bold;
+	padding: 50px;
+	padding-right:0px
+}  
+.n{
+	font-size:50px;
+	font-weight: bold;
+	padding: 50px;
+	padding-left:0px;
+}
+body{
+	background-color:#F1F3D6;
+
+}
+.btn{
+	border:1.5px solid black;
+	font-weight: bold;
+		font-style: italic;
+		margin:3px;
+}
+
+img:hover{
+	width:101%;
+	height: auto;
+	transition: transform 4s;
+}

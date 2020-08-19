@@ -1,0 +1,151 @@
+<html>
+<head>		
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="./css/a1.css">
+<script src="./js/a1.js"></script>
+</head>
+<body>
+	<div class="container">
+
+		<div class="row" style="height:10%">
+		<div class="col-md-offset-4 col-sm-offset-4 col-xs-offset-4 "><span class="m"><i>Our</i></span>    <span class="n"><i>Store</i></span></div></div><br>
+		<div class="row">
+			<div class="col-md-2col-sm-2 col-xs-2 "></div>
+		<div class="col-md-10 col-sm-10 col-xs-10">
+	<span  style="margin-left:10px;margin-right: 10px"><button onclick="f1(this)" data-item="All" class="btn btn-default">ALL</button></span>
+	<span style="margin-left:10px;margin-right: 10px"><button data-item="cake" onclick="f1(this)" class="btn btn-default">CAKES</button></span>
+	<span style="margin-left:10px;margin-right: 10px"><button data-item="sweet" onclick="f1(this)" class="btn btn-default">SWEETS</button></span>
+	<span style="margin-left:10px;margin-right: 10px"><button data-item="doughnut" onclick="f1(this)" class="btn btn-default">DOUGHNUTS</button></span>
+	<span style="margin-left:10px;margin-right: 10px"><button data-item="Sandwich" onclick="f1(this)" class="btn btn-default">SANDWICHES</button></span>
+	
+	
+</div><div class="col-md-3 col-sm-3 col-xs-3 "></div>
+</div><br>
+		<div class="row" ><div class="col-md-2 col-sm-2 col-xs-2 "></div>
+      	<div class="input-group col-md- col-sm-7 col-xs-7 ">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
+      <input id="sear" type="search" class="form-control" onkeyup="sr()" name="search" placeholder="Items ....">
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-3 "></div>
+      </div>
+
+		<div class="row">
+            <div id="Cakes" class="col-md-3 col-sm-3 col-xs-3 thumbnail ">
+				    <div>
+					<img  src="./images/c1.jpeg" alt="rest" norepeat height="auto" width="100%">
+			        </div>
+			        <div style="padding-top:10px" class="items">
+			        	<p >Cake Item</p>
+			        	<p >$10</p>
+			        </div>
+                </div>
+           <div id="Cakes" class="col-md-3 col-sm-3 col-xs-3 thumbnail" >
+				    <div>
+					<img  src="./images/c2.jpeg" alt="rest" norepeat height="auto" width="100%">
+			        </div>
+			        <div style="padding-top:10px" class="items">
+			        	<p >Cake Item</p>
+			        	<p >$10</p>
+			        </div>
+                </div>
+           <div id="Cakes" class="col-md-3 col-sm-3 col-xs-3 thumbnail" >
+				    <div>
+					<img  src="./images/c3.jpeg" alt="rest" norepeat height="auto" width="100%">
+			        </div>
+			        <div style="padding-top:10px" class="items">
+			        	<p >Cake Item</p>
+			        	<p >$10</p>
+			        </div>
+                </div>
+           </div>
+           <div class="row">
+            <div id="Doughnuts"class="col-md-3 col-sm-3 col-xs-3 thumbnail">
+				    <div>
+					<img  src="./images/d1.jpeg" alt="rest" norepeat height="auto" width="100%">
+			        </div>
+			        <div style="padding-top:10px" class="items">
+			        	<p >Doughnut Item</p>
+			        	<p >$5</p>
+			        </div>
+                </div>
+           <div id="Doughnuts" class="col-md-3 col-sm-3 col-xs-3 thumbnail">
+				    <div>
+					<img  src="./images/d2.jpeg" alt="rest" norepeat height="auto" width="100%">
+			        </div>
+			        <div style="padding-top:10px" class="items">
+			        	<p >Doughnut Item</p>
+			        	<p >$5</p>
+			        </div>
+                </div>
+           <div id="Doughnuts" class="col-md-3 col-sm-3 col-xs-3 thumbnail" >
+				    <div>
+					<img  src="./images/d3.jpeg" alt="rest" norepeat height="auto" width="100%">
+			        </div>
+			        <div style="padding-top:10px" class="items">
+			        	<p >Doughnut Item</p>
+			        	<p >$5</p>
+			        </div>
+                </div>
+           </div>
+					<div class="row">
+            <div id="Sweets"class="col-md-3 col-sm-3 col-xs-3 thumbnail" >
+				    <div>
+					<img  src="./images/s1.jpeg" alt="rest" norepeat height="auto" width="100%">
+			        </div>
+			        <div style="padding-top:10px" class="items">
+			        	<p >Sweet Item</p>
+			        	<p >$3</p>
+			        </div>
+                </div>
+           <div  id="Sweets" class="col-md-3 col-sm-3 col-xs-3 thumbnail" >
+				    <div>
+					<img  src="./images/s2.jpeg" alt="rest" norepeat height="auto" width="100%">
+			        </div>
+			        <div style="padding-top:10px" class="items">
+			        	<p>Sweet Item</p>
+			        	<p>$3</p>
+			        </div>
+                </div>
+           <div  id="Sweets" class="col-md-3 col-sm-3 col-xs-3 thumbnail ">
+				    <div>
+					<img  src="./images/s3.jpeg" alt="rest" norepeat height="auto" width="100%">
+			        </div>
+			        <div style="padding-top:10px" class="items">
+			        	<p>Sweet Item</p>
+			        	<p>$3</p>
+			        </div>
+                </div>
+           </div>
+           <div class="row">
+            <div id="Cupcakes"class="col-md-3 col-sm-3 col-xs-3 thumbnail" >
+				    <div>
+					<img  src="./images/w1.jpeg" alt="rest" norepeat height="auto" width="100%">
+			        </div>
+			        <div style="padding-top:10px" class="items">
+			        	<p >Sandwich Item</p>
+			        	<p >$5</p>
+			        </div>
+                </div>
+           <div  id="Cupcakes" class="col-md-3 col-sm-3 col-xs-3 thumbnail" >
+				    <div>
+					<img  src="./images/w2.jpeg" alt="rest" norepeat height="auto" width="100%">
+			        </div>
+			        <div style="padding-top:10px" class="items">
+			        	<p>Sandwich Item</p>
+			        	<p>$5</p>
+			        </div>
+                </div>
+           <div  id="Cupcakes" class="col-md-3 col-sm-3 col-xs-3 thumbnail " >
+				    <div>
+					<img  src="./images/w3.jpeg" alt="rest" norepeat height="auto" width="100%">
+			        </div>
+			        <div style="padding-top:10px" class="items">
+			        	<p>Sandwich Item</p>
+			        	<p>$5</p>
+			        </div>
+                </div>
+           </div>
+           </div></body></html>
